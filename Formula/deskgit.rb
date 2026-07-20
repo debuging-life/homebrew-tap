@@ -1,9 +1,9 @@
 class Deskgit < Formula
   desc "DeskTimers terminal git client — lazygit fork with task-code integration"
   homepage "https://desktimers.com"
-  url "https://github.com/debuging-life/lazygit/archive/refs/tags/deskgit-v0.2.1.tar.gz"
-  sha256 "3f984e2bde2f6aa841490c607ddba0d1d43bdd5522b5a463d6d211c35fb83b43"
-  version "0.2.1"
+  url "https://github.com/debuging-life/lazygit/archive/refs/tags/deskgit-v0.2.2.tar.gz"
+  sha256 "4de0618202b76da79b58dea69a5cbf987aa0f63a992b5c4f9a40ceaed2c91bbb"
+  version "0.2.2"
   license "MIT"
 
   head "https://github.com/debuging-life/lazygit.git", branch: "main"

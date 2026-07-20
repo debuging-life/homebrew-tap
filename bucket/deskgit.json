@@ -1,0 +1,12 @@
+{
+    "version": "0.4.0",
+    "description": "DeskTimers terminal git client — lazygit fork with task-code integration",
+    "homepage": "https://desktimers.com",
+    "license": "MIT",
+    "url": "https://github.com/debuging-life/lazygit/releases/download/deskgit-v0.4.0/deskgit_0.4.0_windows_amd64.zip",
+    "hash": "72f814b98ebbe3379d679102efe238979189312ff9b1221e1e6d349f5eccb0e1",
+    "bin": [
+        "deskgit.exe",
+        "dt-hook.exe"
+    ]
+}

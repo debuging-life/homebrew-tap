@@ -1,17 +1,12 @@
 class Deskgit < Formula
   desc "DeskTimers terminal git client — lazygit fork with task-code integration"
   homepage "https://desktimers.com"
+  url "https://github.com/debuging-life/lazygit/archive/refs/tags/deskgit-v0.1.0.tar.gz"
+  sha256 "bfa2c7e7554118b3815ed366496cfa165ce2fb16e3380539fae170615d5cccf9"
+  version "0.1.0"
   license "MIT"
 
-  # To cut a stable release: push a `deskgit-vX.Y.Z` tag on the dtgit branch,
-  # then uncomment and fill in (sha256 from `curl -L <url> | shasum -a 256`):
-  #
-  # url "https://github.com/debuging-life/lazygit/archive/refs/tags/deskgit-v0.1.0.tar.gz"
-  # sha256 "REPLACE_ME"
-  # version "0.1.0"
-  #
-  # Until then, install with: brew install --HEAD debuging-life/tap/deskgit
-  head "git@github.com:debuging-life/lazygit.git", branch: "dtgit", using: :git
+  head "https://github.com/debuging-life/lazygit.git", branch: "main"
 
   depends_on "go" => :build
 
